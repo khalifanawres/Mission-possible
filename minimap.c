@@ -7,7 +7,7 @@
 
 void init_map(minimap *m)
 {
-m->url="minimap 0.png";
+m->url="minimap0.png";
 m->min=IMG_Load(m->url);
 if(m->min==NULL)
 {
@@ -164,20 +164,20 @@ void initialisation_animation(animation *animat)
 //int i;
 //char c[3],chemin[10]="";
 
-animat->anim[0]=IMG_Load("minimap 0.png");
-animat->anim[1]=IMG_Load("minimap 1.png");
-animat->anim[2]=IMG_Load("minimap 2.png");
-animat->anim[3]=IMG_Load("minimap 3.png");
-animat->anim[4]=IMG_Load("minimap 4.png");
-animat->anim[5]=IMG_Load("minimap 5.png");
-animat->anim[6]=IMG_Load("minimap 6.png");
-animat->anim[7]=IMG_Load("minimap 7.png");
-animat->anim[8]=IMG_Load("minimap 8.png");
-animat->anim[9]=IMG_Load("minimap 9.png");
+animat->anim[0]=IMG_Load("minimap0.png");
+animat->anim[1]=IMG_Load("minimap1.png");
+animat->anim[2]=IMG_Load("minimap2.png");
+animat->anim[3]=IMG_Load("minimap3.png");
+animat->anim[4]=IMG_Load("minimap4.png");
+animat->anim[5]=IMG_Load("minimap5.png");
+animat->anim[6]=IMG_Load("minimap6.png");
+animat->anim[7]=IMG_Load("minimap7.png");
+animat->anim[8]=IMG_Load("minimap8.png");
+animat->anim[9]=IMG_Load("minimap9.png");
 
 /*for(i=1;i<=10;i++)
 {
-strcpy(chemin,"minimap ");
+strcpy(chemin,"minimap");
 sprintf(c,"%d",i);
 
 strcat(chemin,c);
